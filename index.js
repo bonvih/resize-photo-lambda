@@ -65,7 +65,7 @@ exports.handler = async function (event, context, callback) {
     return {
       statusCode: "301",
       headers: {
-        location: `http://${BUCKET_NAME}.s3-website.eu-west-2.amazonaws.com/${key}`,
+        location: `https://d1g5jn050vwlge.cloudfront.net/${key}`,
       },
       body: "",
     };
